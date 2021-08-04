@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    width: 226px;
+    height: 314px;
+    display: block;
+    /* border: 2px solid black; */
+    /* box-shadow: none; */
+}
+
+button {
+    display: block;
+    padding: 1em 2em;
+    font-size: 1.2rem;
+    margin-top: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.container {
+    margin: 2em;
+}
+
+/* Draw button should be hidden at start */
+#draw-btn {
+    display: none;
+}
+
+@media (min-width: 850px) {
+    body {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
