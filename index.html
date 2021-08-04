@@ -13,18 +13,23 @@
     </head>
 
     <body>
+        <h1>War!</h1>
+        <p>Remaining cards: <span id="remaining-cards"></span></p>
         <div class="container">
-            <h2>Opponent: <span id="opponent-score">0</span></h2>
-            <img src="#" alt="" id="opponent-img">
+            <div class="card">
+                <h2>Opponent: <span id="opponent-score">0</span></h2>
+                <img src="#" alt="" id="opponent-img">
+            </div>
+            <div class="card">
+                <h2>You: <span id="player-score">0</span></h2>
+                <img src="#" alt="" id="player-img">
+            </div>
+            <div class="card">
+                <button id="new-deck-btn">Draw a new deck</button>
+                <button id="draw-btn">Draw cards</button>
+            </div>
         </div>
-        <div class="container">
-            <h2>You: <span id="player-score">0</span></h2>
-            <img src="#" alt="" id="player-img">
-        </div>
-        <div class="container">
-            <button id="new-deck-btn">Draw a new deck</button>
-            <button id="draw-btn">Draw cards</button>
-        </div>
+
 
         <script src="index.js"></script>
     </body>

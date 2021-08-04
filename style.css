@@ -4,15 +4,19 @@
 
 body {
     background-color: green;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     color: white;
     margin: 0;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 h2 {
@@ -42,7 +46,7 @@ button:hover {
     color: white;
 }
 
-.container {
+.card {
     margin: 2em;
 }
 
@@ -52,7 +56,7 @@ button:hover {
 }
 
 @media (min-width: 850px) {
-    body {
+    .container {
         flex-direction: row;
         justify-content: center;
     }
